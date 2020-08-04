@@ -1,0 +1,1505 @@
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 1060px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:1060px){
+    .bannar_right ul {
+        padding: 17px 0 17px 138px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 946px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:946px){
+    .chekout_pakate.col-6 img {
+        margin: -82px 0 0 -50px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 -195px;
+    }
+    .btn_checkout_pro img {
+        margin: 1px 0 0 -24px !important;
+    } 
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 952px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:952px){
+    .bannar_right h2 {
+        font-size: 36px;
+    }
+    .bannar_right ul {
+        padding: 17px 0 17px 157px;
+    }
+    .secont_h2_bannar_right {
+        margin-top: -7px;
+    }
+    .bannar_right ul {
+        padding: 17px 0 17px 138px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 914px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:914px){
+    .chekout_pakate.col-6 img {
+        margin: -61px 0 0 7px;
+    }
+    .btn_checkout_pro img {
+        margin: 8px 0 0 28px !important;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 -122px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 822px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:822px){
+    .chekout_pakate.col-6 img {
+        margin: -61px 0 0 -57px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 -188px;
+    }
+    .btn_checkout_pro img {
+        margin: 1px 0 0 -21px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 800px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:800px){
+    .bannar_right ul {
+        padding: 17px 0 17px 100px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 768px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:768px){
+    /* -------------------------------- Basic Css ------------------------------- */
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    /* ---------------------------- Bannar Part Start --------------------------- */
+    /* -------------------------- Bannar Left Part css -------------------------- */
+    .bannar_left img{
+        max-width: 100%;
+    height: auto;
+    margin: 11px 0 0 -50px;
+    }
+    /* -------------------------- Bannar Right Part css ------------------------- */
+    .bannar_right img{
+        width: 80px;
+        height: 45px;
+        margin: 10px auto;
+        display: block;
+    }
+    .bannar_right h4{
+        font-size: 21px;
+        color: #0b61c5;
+        text-shadow: 1px 1px 3px #667b90;
+        letter-spacing: 2px;
+        margin: 15px 0 4px 0;
+    }
+    .bannar_right h2{
+        font-size: 32px;
+        color: #EF7A33;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px 4px #667b90;
+    }
+    .secont_h2_bannar_right{
+        color:#562864 !important;
+        margin-top:-18px;
+    }
+    .bannar_right ul{
+        background:#F27A30;
+        padding: 6px 0 6px 103px;
+    }
+    .bannar_right ul li{
+        margin-right:36px;
+        color:#ffffff;
+    }
+    /* ----------------------- Bullet Number List Two css ----------------------- */
+    .bulleting ul{
+        background:transparent;
+        padding:5px;
+    }
+    .bulleting ul li{
+        color:#462C4C;
+        list-style: none;
+        font-size: 25px;
+        position: relative;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .bulleting ul li span img{
+        width:40px;
+        height:40px;
+        display:inline;
+        border-radius:35px;
+        transform: rotate(269deg);
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+    /* ------------------------ Bannar Bottom Red Div Css ----------------------- */
+    .bannar_bottom_red_div{
+        max-width:100%;
+        height:20px;
+        background:#D47305;
+    }
+    /* -------------------------- CELEBRITIES  Part css ------------------------- */
+    .celebrities_part{
+        max-width:100%;
+        height:auto;
+    }
+    .celebrities_part h2{
+        font-size: 37px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 0px 0 38px 0;
+        background: #EF7A33;
+        padding: 17px 2px 17px 2px;
+        letter-spacing: 11px;
+    }
+    .celebrities_part img{
+        max-width:100%;
+        height:auto;
+        margin-top: -39px;
+    }
+    .celebrities_part p{
+        font-size: 16px;
+        margin: 30px 0 21px 23px;
+        text-align: justify;
+        padding: 18px 49px 21px 57px;
+        border-left: 15px solid #EF7A33;
+        background-size: 100% 100%;
+        color: #000000;
+    }
+    /* --------------------- Bannar Bottom content start css -------------------- */
+    .bannar_b_content{
+        width:100%;
+        height:auto;
+    }
+    .bannar_b_content h2{
+        font-size: 37px;
+        color: #EF7A33;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+    .bannar_b_content img{
+        width: 100%;
+        height: auto;
+        margin-top: -33px;
+        padding: 2px;
+        background: #D47305;
+        margin-left: 15px;
+    }
+    .bannar_b_content h4{
+        font-size: 22px;
+        margin: 16px 0 15px 22px;
+    }
+    .bannar_b_content p{
+        font-size: 16px;
+        margin: 2px 0 21px 23px;
+        text-align: justify;
+    }
+    /* ------------------------- Second Content Part css ------------------------ */
+    .second_cotent h2{
+        font-size: 37px;
+        color: #EF7A33;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+    .second_cotent p{
+        font-size: 16px;
+        text-align: justify;
+        margin: 2px 0 2px 23px;
+    }
+    /* -------------------------- Content 3rd Part css -------------------------- */
+    .content_3rd_part{
+        width:100%;
+        height:auto;
+    }
+    .content_3rd_part h2{
+        font-size: 37px;
+        color: #EF7A33;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 49px 0 22px 138px;
+    }
+    .content_3rd_part img{
+        width:100%;
+        height:auto;
+    }
+    .content_3rd_part p{
+        font-size: 16px;
+        text-align: justify;
+        margin: 10px 10px 10px 23px;
+    }
+    /* -------------------------- Shipping Process css -------------------------- */
+    .shipping_process{
+        width:100%;
+        height:auto;
+        margin-bottom: -20px;
+    }
+    .shipping_process img{
+        width: 100%;
+        height: auto;
+        margin: 52px 0 0 0;
+    }
+    .shipping_process p{
+        font-size: 16px;
+        text-align: justify;
+        margin: 32px 30px 14px 23px;
+    }
+    /* ----------------------------- Rlz Button css ----------------------------- */
+
+
+
+
+
+    /* --------------------------- FB Coment Part Css --------------------------- */
+    .comment {
+        background-color: #ebedf0;
+        border-radius: 18px;
+        display: inline-block;
+        line-height: 16px;
+        margin-top: 0;
+        min-width: 0;
+        overflow: hidden;
+        padding: 6px 12px 7px 12px;
+    }
+    .top-fan {
+        display: block;
+        font-size: 12px;
+        color: grey;
+    }
+    .top-fan img {
+        width: 12px;
+        margin-right: 2px;
+    }
+    .like-replay span {
+        padding-left: 10px;
+        font-weight: bold;
+        color: gray;
+    }
+    .btn-primary {
+        color: #8e8e8e;
+        background-color: #ffffff;
+        border-color: #909090;
+        border-radius: 1px;
+        font-size: 15px;
+    }
+    }
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 758px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:758px){
+    .bannar_right h2 {
+        font-size: 32px;
+    }
+    .secont_h2_bannar_right {
+        margin-top: -13px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 735px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:735px){
+    body{
+        width:100vw !important;
+    }
+
+    .bannar_right h4 {
+        font-size: 19px;
+        margin: 15px 0 4px 7px;
+    }
+    .bulleting ul li {
+        font-size: 22px;
+    }
+    .bannar_b_content img {
+        margin-left: 14px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 731px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:731px){
+    .chekout_pakate.col-6 img {
+        margin: -54px 0 0 -47px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 -181px;
+    }
+    .btn_checkout_pro img {
+        margin: 0px 0 0 -13px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 722px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:722px){
+    body{
+        width:100vw !important;
+    }
+    .header_top_right ul li:nth-child(1) {
+        font-size: 14px;
+    }
+    .bulleting ul li span img {
+        width: 37px;
+        height: 37px;
+        margin-left: -45px;
+        margin-top: 1px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 718px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:718px){
+    .bannar_right ul {
+        padding: 6px 0 6px 65px;
+    }
+    .content_3rd_part h2 {
+        margin: 20px 0 14px 120px;
+    }
+    .shipping_process p {
+        margin: 0px 0px 0px 0px;
+    }
+    .content_3rd_part {
+        padding: 5px 9px 50px 0px;
+    }
+    .second_cotent p {
+        margin: 2px 0 2px 3px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 707px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:707px){
+    body{
+        width:100vw !important;
+    }
+    .header_top_right ul li:nth-child(1) {
+        font-size: 13px;
+    }
+    .bannar_left img {
+        margin: 4px 0 0 -9px;
+    }
+    .bannar_b_content img {
+        margin-left: 15px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 704px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:704px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 36px;
+        padding: 15px 10px 16px 10px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 -162px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 700px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:700px){
+    body{
+        width:100vw !important;
+    }
+    .header_top_right .fox_img {
+        width: 70px;
+    }
+    .bannar_b_content h4 {
+        font-size: 21px;
+    }
+    .bannar_right h2 {
+        font-size: 30px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 690px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:690px){
+    body{
+        width:100vw !important;
+    }
+    .bannar_right h4 {
+        margin: 15px 0 4px -2px;
+    }
+    .bulleting ul li {
+        font-size: 20px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 106px;
+    }
+    .celebrities_part h2 {
+        margin: 0px 0 20px 0;
+        letter-spacing: 9px;
+    }
+    .celebrities_part img {
+        margin-top: -20px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 678px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:678px){
+    body{
+        width:100vw !important;
+    }
+    .header_top_right ul li:nth-child(1) {
+        font-size: 11px;
+    }
+    .bannar_right h4 {
+        font-size: 17px;
+        margin: 15px 0 4px 7px;
+    }
+    .bannar_right h2 {
+        font-size: 29px;
+    }
+
+    .second_cotent h2 {
+        font-size: 34px;
+    }
+    .content_3rd_part h2 {
+        font-size: 34px;
+        margin: 25px 0 4px 110px;
+    }
+    .celebrities_part h2 {
+        font-size: 33px;
+    }
+    .bannar_b_content h4 {
+        font-size: 20px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 664px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:664px){
+    body{
+        width:100vw !important;
+    }
+    .header_top_right ul li:nth-child(1) {
+        font-size: 9px;
+    }
+    .bannar_b_content img {
+        margin-left: 14px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 663px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:663px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 30px;
+        padding: 20px 10px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 660px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:660px){
+    .chekout_pakate.col-6{
+        display: none;
+    }
+    .btn_checkout{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100% !important;
+        max-width: 100%;
+    }
+    .btn_checkout.col-6 img {
+        margin: 14px 5px 0 -1px;
+    }
+    .btn_checkout_pro ul li {
+        text-align: center;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 70px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 42px;
+        padding: 15px 10px 16px 10px;
+    }
+
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 652px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:652px){
+    .bannar_right ul li {
+        margin-right: 0px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 649px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:649px){
+    .header_top_right .fox_img {
+        width: 60px;
+    }
+    .bulleting ul li {
+        font-size: 18px;
+    }
+    .bannar_b_content img {
+        margin-left: 15px;
+    }
+    .second_cotent h2 {
+        font-size: 29px;
+    }
+    .content_3rd_part h2 {
+        font-size: 29px;
+        margin: 25px 0 4px 144px;
+    }
+    .celebrities_part p {
+        padding: 18px 49px 21px 28px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 632px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:632px){
+    .bannar_right h4 {
+        margin: 15px 0 4px -3px;
+    }
+    .bannar_right h2 {
+        font-size: 26px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 68px;
+    }
+    .bannar_right ul li{
+        margin-right: 0px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .bulleting ul {
+        padding: 6px 2px 2px 1px !important;
+    }
+    .bulleting ul li {
+        font-size: 17px;
+        line-height: 27px;
+        color: #000000;
+        text-align: left;
+    }
+
+    .bulleting ul li span img {
+        width: 26px;
+        height: 26px;
+        margin-left: -35px;
+        margin-top: -1px;
+    }
+    .bannar_b_content h4 {
+        font-size: 19px;
+    }
+    .celebrities_part img {
+        max-width: 100%;
+        height: auto;
+        margin-top: -20px;
+    }
+    .button_wrap button {
+        padding: 7px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 623px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:623px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 35px;
+        padding: 17px 10px 16px 10px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 64px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 615px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:615px){
+    .bannar_right h4 {
+        font-size: 16px;
+    }
+    .second_cotent p {
+        font-size: 15px;
+    }
+    .celebrities_part p {
+        font-size: 14px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 596px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:596px){
+    .header_top_right .fox_img {
+        width: 57px;
+    }
+    .bannar_right h4 {
+        font-size: 15px;
+        margin: 15px 0 4px 1px;
+    }
+    .bannar_right img {
+        width: 60px;
+        height: 29px;
+    }
+    .header_top_left img {
+        width: 60px;
+        height: 26px;
+        margin: 12px 0 0 68px;
+    }
+    .bulleting ul li {
+        font-size: 16px;
+    }
+    .bannar_b_content h4 {
+        font-size: 18px;
+    }
+    .bannar_right ul li {
+        font-size: 17px;
+    }
+    .second_cotent p {
+        font-size: 14px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 102px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 590px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:590px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 46px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 580px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:580px){
+    .header_top_right .fox_img {
+        width: 53px;
+    }
+    .bannar_right h2 {
+        font-size: 23px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 50px;
+    }
+    .bulleting ul li {
+        font-size: 15px;
+    }
+    .second_cotent h2 {
+        font-size: 24px;
+    }
+    .content_3rd_part h2 {
+        font-size: 24px;
+        margin: 25px 0 4px 142px;
+    }
+    .celebrities_part h2 {
+        font-size: 24px;
+    }
+    .celebrities_part p {
+        padding: 12px 20px 12px 20px;
+    }
+    .secont_h2_bannar_right {
+        margin-top: -10px;
+    }
+    .bannar_right ul li {
+        font-size: 14px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 60px;
+    }
+    .bulleting ul li {
+        font-size: 15px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 568px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:568px){
+    .bannar_b_content h4 {
+        font-size: 17px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 565px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:565px){
+    .bannar_right h4 {
+        font-size: 14px;
+        margin: 15px 0 4px 4px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 558px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:558px){
+    .header_top_right ul {
+        margin-left: 54px;
+    }
+    .bulleting ul li span img {
+        width: 18px;
+        height: 18px;
+        margin-left: -24px;
+        margin-top: 2px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 545px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:545px){
+    .bannar_b_content h4 {
+        font-size: 16px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 541px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:541px){
+    .bannar_right h4 {
+        font-size: 13px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 543px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:543px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 34px;
+        padding: 18px 10px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 524px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:524px){
+    .header_top_right .fox_img {
+        width: 48px;
+    }
+    .bannar_right h2 {
+        font-size: 21px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 44px;
+    }
+    .bulleting ul li {
+        font-size: 14px !important;
+    }
+    .second_cotent p {
+        font-size: 14px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 116px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 519px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:519px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 20px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 515px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:515px){
+    .bannar_b_content h4 {
+        font-size: 15px;
+    }
+
+    .celebrities_part h2 {
+        font-size: 20px;
+        letter-spacing: 7px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 513px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:513px){
+    .bannar_right h4 {
+        font-size: 12px;
+    }
+    .second_cotent h2 {
+        font-size: 20px;
+    }
+    .content_3rd_part h2 {
+        font-size: 20px;
+        margin: 25px 0 4px 129px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 497px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:497px){
+    .header_top_right .fox_img {
+        width: 42px;
+    }
+    .header_top_right ul {
+        margin-left: 66px;
+    }
+    .celebrities_part p {
+        font-size: 13px;
+        padding: 10px 12px 10px 12px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 493px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:493px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 8px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 485px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:485px){
+    .bannar_b_content h4 {
+        font-size: 14px;
+    }
+    .bannar_right h4 {
+        margin: 15px 0 4px -2px;
+    }
+    .bannar_right h2 {
+        font-size: 20px;
+    }
+    .bannar_right ul li {
+        font-size: 12px;
+        margin-right: 26px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 52px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 481px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:481px){
+    .header_top_right ul li:nth-child(1) {
+        font-size: 8px;
+    }
+    .bulleting ul li {
+        font-size: 13px !important;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 18px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 24px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 29px;
+        padding: 21px 10px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 474px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:474px){
+    .header_top_right .fox_img {
+        width: 40px;
+    }
+    .bannar_right h4 {
+        font-size: 10px;
+        margin: 15px 0 4px 10px;
+    }
+    .bannar_right h2 {
+        font-size: 18px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 91px;
+    }
+    .second_cotent p {
+        margin: 0px -116px 0px -3px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 463px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:463px){
+    .header_top_right .fox_img {
+        width: 39px;
+    }
+    .bannar_right img {
+        width: 50px;
+        height: 25px;
+    }
+    .header_top_left img {
+        width: 50px;
+        height: 23px;
+        margin: 12px 0 0 44px;
+    }
+    .second_cotent p {
+        font-size: 13px;
+    }
+    .bannar_b_content p {
+        font-size: 14px;
+    }
+    .content_3rd_part p {
+        font-size: 14px;
+    }
+    .shipping_process p {
+        font-size: 14px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 458px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:458px){
+    .header_top_right .fox_img {
+        width: 37px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 453px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:453px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 3px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 452px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:452px){
+    .bannar_right ul li {
+        margin-right: 0px;
+    }
+    
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 450px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:450px){
+    .bannar_b_content h4 {
+        text-align: justify;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 447px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:447px){
+    .header_top_right ul {
+        margin-left: 37px;
+    }
+    .content_3rd_part h2 {
+        font-size: 18px;
+        margin: 25px 0 4px 124px;
+    }
+    .second_cotent h2 {
+        font-size: 18px;
+    }
+    .celebrities_part h2 {
+        font-size: 18px;
+        letter-spacing: 6px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 442px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:442px){
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 89px;
+    }
+    .bulleting ul li {
+        margin: 0 0 0 -30px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 29px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 438px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:438px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 30px;
+        padding: 21px 18px 16px 10px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 11px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 26px;
+        padding: 24px 18px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 437px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:437px){
+    .bannar_right h4 {
+        margin: 15px 0 4px 0px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 34px;
+    }
+    .com-reac{
+        margin-left:0px !important;
+        margin-top:6px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 424px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:424px){
+    .bannar_right h2 {
+        font-size: 16px;
+    }
+
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 420px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:420px){
+    .bannar_right h4 {
+        margin: 15px 0 4px -5px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 419px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:419px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 4px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 412px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:412px){
+    .bannar_right h4 {
+        margin: 15px 0 4px -12px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 107px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 79px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 28px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 411px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:411px){
+    .btn_checkout.col-6>ul>li>img {
+        width: 50px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 15px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 408px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:408px){
+    .header_top_right ul {
+        margin-left: 22px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 405px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:405px){
+    .second_cotent {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(90deg, rgba(255,255,255,0.9) 78%, rgba(3,74,60,0.5) 102%), url(../img/harvard-university.jpg);
+        background-size: 100% 100%;
+        padding: 10px 133px 50px 0px;
+    }
+    .btn_checkout.col-6 img {
+        margin: 15px 5px 0 0px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 400px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:400px){
+    .bannar_right h4 {
+        margin: 15px 0 4px -16px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 26px;
+    }
+    .com-reac{
+        margin-left:0px !important;
+        margin-top:6px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 4px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 394px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:394px){
+    .btn_checkout.col-6>ul>li>img {
+        width: 50px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 393px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:393px){
+    .bannar_right h4 {
+        letter-spacing: 1px;
+        margin: 15px 0 4px 2px;
+    }
+    .bulleting ul li {
+        font-size: 12px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 389px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:389px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 27px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 388px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:388px){
+    .bannar_right ul li {
+        font-size: 11px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 32px;
+    }
+    .bannar_right h2 {
+        font-size: 16px;
+    }
+    .bulleting ul li {
+        margin: 0 0 0 -11px;
+        line-height: 21px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 386px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:386px){
+    .bannar_right h2 {
+        font-size: 14px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 70px;
+    }
+    .button_wrap button {
+        width: 255px;  
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 379px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:379px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 24px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 16px;
+    }
+
+
+
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 378px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:378px){
+    .header_top_right ul {
+        margin-left: 8px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 70px;
+    }
+    .btn_checkout_pro img {
+        margin: 6px 0 0 -35px !important;
+    }
+    .fda_image img {
+        width: 100%;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 371px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:371px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 6px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 370px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:370px){
+    .header_top_right ul {
+        margin-left: 0px;
+    }
+    .btn_checkout.col-6 img {
+        margin: 10px 5px 0 0px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 367px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:367px){
+    .bannar_right h4 {
+        margin: 15px 0 4px 0px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 364px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:364px){
+    .bannar_right h4 {
+        margin: 15px 0 4px 7px;
+        letter-spacing: 0px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 26px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 362px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:362px){
+    .bannar_right ul {
+        padding: 6px 0 6px 23px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 359px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:359px){
+    .bulleting ul li {
+        font-size: 11px !important;
+        line-height: 18px;
+    }
+    .bannar_left img {
+        margin: 5px 0 0 8px;
+    }
+    .bannar_right h2 {
+        font-size: 15px;
+        margin-left: -10px;
+    }
+    .bannar_right ul li {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 32px;
+    }
+    .second_cotent p {
+        font-size: 11px;
+    }
+    .celebrities_part h2 {
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 25px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 0px;
+    }
+    .btn_checkout_pro img {
+        margin: 2px 0 0 -15px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 355px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:355px){
+    .header_top_right ul {
+        margin-left: -8px;
+    }
+    .header_top_left img {
+        margin: -7px 0 0 12px;
+    }
+    .bannar_left img {
+        margin: -1px 0 0 4px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 24px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 352px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:352px){
+    .second_cotent h2 {
+        font-size: 16px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 349px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:349px){
+    .bannar_right h2 {
+        margin-left: -18px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 30px;
+        margin: 0 0 0 -17px;
+    }
+    .bannar_right img {
+        margin: 1px 0 -10px 36px;
+    }
+    .bannar_right h4 {
+        margin: 15px 0 4px -28px;
+        letter-spacing: 2px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 348px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:348px){
+    .header_top_right ul {
+        margin-left: -14px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 345px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:345px){
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 23px;
+        padding: 25px 18px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 340px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:340px){
+    .header_top_right ul {
+        margin-left: -31px;
+    }
+    .bulleting ul {
+        margin: -8px 0 0 -16px !important;
+    }
+    .celebrities_part p {
+        border-left: 5px solid #EF7A33;
+    }
+    .bulleting ul {
+        margin: 12px 0 0 -16px !important;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 336px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:336px){
+    .bannar_right h2 {
+        margin-left: -25px;
+    }
+    .bannar_right ul {
+        margin: 0 0 0 -29px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 335px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:335px){
+    .com-reac{
+        margin-left:0px !important;
+        margin-top:6px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 22px;
+        padding: 27px 18px 16px 10px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 333px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:333px){
+    .second_cotent h2 {
+        width: 200px;
+        text-align: left;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 327px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:327px){
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 0px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 325px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:325px){
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 58px;
+    }
+    .btn_checkout.col-6 ul>li>a>h2 {
+        font-size: 20px;
+        padding: 27px 18px 16px 10px;
+    }
+    .btn_checkout.col-6 >ul {
+        margin: 15px 0 0 8px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 324px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:324px){
+    .bannar_right h2 {
+        margin-left: -31px;
+    }
+    .bannar_right img {
+        margin: 1px 0 -10px 24px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 22px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 320px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:320px){
+    .bannar_right h2 {
+        font-size: 14px;
+    }
+    .bannar_right ul {
+        padding: 6px 0 6px 23px;
+    }
+    .content_3rd_part h2 {
+        margin: 25px 0 4px 26px;
+    }
+    .bannar_right h4 {
+        margin: 15px 0 4px 1px;
+    }
+    .popUpbtn {
+        letter-spacing: 1px;
+    }
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 315px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:315px){
+    .popUpbtn {
+        letter-spacing: 1px;
+    }
+}

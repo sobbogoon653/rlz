@@ -1,0 +1,740 @@
+/* -------------------------------- Fonts Add ------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+/* -------------------------------------------------------------------------- */
+/*                        Mobile View Website Css Start                       */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------- Basic Css ------------------------------- */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.popup_body{
+    overflow-x: hidden;
+}
+/* ---------------------------- Bannar Part Start --------------------------- */
+#header{
+    width:100%;
+    background-image:linear-gradient(to right, rgba(0,0,0,0),rgba(255,255,255,1)), url("../img/591c71fe1442931b008b6298.jpg");
+    background-repeat: no-repeat;
+    height:auto;
+    background-size: cover;
+    padding: 29px 20px 36px 6px;
+}
+/* -------------------------- Bannar Left Part css -------------------------- */
+.bannar_left img {
+    width: 100%;
+    height: auto;
+    margin: 11px 0 0 4px;
+}
+/* -------------------------- Bannar Right Part css ------------------------- */
+.bannar_right img{
+    width: 80px;
+    height: 45px;
+    margin: 10px auto;
+    display: block;
+}
+.bannar_right h4 {
+    font-size: 32px;
+    color: #0b61c5;
+    text-shadow: 1px 1px 3px #667b90;
+    letter-spacing: 3px;
+    margin: 16px 0 4px 22px;
+    text-align: center;
+}
+.bannar_right h2 {
+    font-size: 45px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #667b90;
+}
+.secont_h2_bannar_right{
+    color:#562864 !important;
+    margin-top:-18px;
+}
+.bannar_right ul {
+    background: #F27A30;
+    padding: 17px 0 17px 205px;
+}
+.bannar_right ul li {
+    margin-right: 0px; 
+    color: #ffffff;
+    font-size: 20px;
+}
+/* ----------------------- Bullet Number List Two css ----------------------- */
+.bulleting ul {
+    background: transparent;
+    padding: 0 0 0 0 !important;
+}
+.bulleting ul li {
+    color: #462C4C;
+    list-style: none;
+    font-size: 25px;
+    position: relative;
+    font-weight: 700;
+    line-height: 47px;
+}
+.bulleting ul li span img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    border-radius: 35px;
+    transform: rotate(269deg);
+    position: absolute;
+    margin-left: -59px;
+    margin-top: 6px;
+}
+/* ------------------------ Bannar Bottom Red Div Css ----------------------- */
+.bannar_bottom_red_div{
+    width:100%;
+    height:20px;
+    background:#D47305;
+}
+/* -------------------------- CELEBRITIES  Part css ------------------------- */
+.celebrities_part{
+    width:100%;
+    height:auto;
+}
+.celebrities_part h2{
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px 0 38px 0;
+    background: #EF7A33;
+    padding: 17px 2px 17px 2px;
+    letter-spacing: 11px;
+}
+.celebrities_part img{
+    width: 100%;
+    height: auto;
+    margin-top: -38px;
+}
+.celebrities_part p{
+    font-size: 16px;
+    margin: 30px 0 21px 23px;
+    text-align: justify;
+    padding: 18px 49px 21px 57px;
+    border-left: 15px solid #EF7A33;
+    background-size: 100% 100%;
+    color: #000000;
+}
+.celebrities_p_1{
+    background: linear-gradient(to right, rgba(255,255,255,0.6),rgba(255,255,255,1)),url(../img/1-Harvard-University-1.jpg) no-repeat;
+}
+.celebrities_p_2{
+    background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,1)),url(../img/hard_fresh_man.png) no-repeat;
+}
+.celebrities_p_3{
+    background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,1)),url(../img/800.jpeg) no-repeat;
+}
+/* --------------------- Bannar Bottom content start css -------------------- */
+.bannar_b_content{
+    width:100%;
+    height:auto;
+}
+.bannar_b_content h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.bannar_b_content img{
+    width: 100%;
+    height: auto;
+    margin-top: -33px;
+    padding: 2px;
+    background: #D47305;
+    margin-left: 15px;
+}
+.bannar_b_content h4{
+    font-size: 22px;
+    margin: 16px 0 15px 22px;
+}
+.bannar_b_content p{
+    font-size: 16px;
+    margin: 2px 0 21px 23px;
+    text-align: justify;
+}
+/* ------------------------- Second Content Part css ------------------------ */
+.second_cotent{
+    width:100%;
+    height:auto;
+    background:linear-gradient(90deg, rgba(255,255,255,0.9) 52%, rgba(3,74,60,0.5) 90%), url("../img/harvard-university.jpg");
+    background-size: 100% 100%;
+    padding: 10px 133px 50px 0px;
+}
+.second_cotent h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+.second_cotent p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 2px 0 2px 23px;
+}
+/* -------------------------- Content 3rd Part css -------------------------- */
+.content_3rd_part{
+    width: 100%;
+    height: auto;
+    padding: 10px 25px 60px 2px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/Harvard-University_result.jpg);
+    background-size: 100% 100%;
+}
+.content_3rd_part h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 49px 0 22px 138px;
+}
+.content_3rd_part img{
+    width:100%;
+    height:auto;
+}
+.content_3rd_part p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0 10px 23px;
+}
+/* -------------------------- Shipping Process css -------------------------- */
+.shipping_process {
+    width: 100%;
+    height: auto;
+    margin-bottom: -20px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/Harvard-University_result.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 61px;
+}
+.shipping_process img{
+    width: 100%;
+    height: auto;
+    margin: 52px 0 0 0;
+}
+.shipping_process p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 30px 31px 30px 26px;
+}
+.bottom_section_bg{
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/harvard-university\ \(1\).jpg);
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+}
+/* ----------------------------- Rlz Button css ----------------------------- */
+.rlz_button{
+    width:100%;
+    height:auto;
+}
+.button_wrap{
+    width: 100%;
+    height: 150px;
+    background: #5A266E;
+    margin: 20px auto;
+    position: relative;
+}
+.btn_checkout.col-6 >ul{
+    display:flex;
+    margin: 15px 0 0 -60px;
+}
+.btn_checkout.col-6> ul> li{
+    list-style-type: none;
+}
+.btn_checkout.col-6>ul>li>img {
+    width: 100%;
+    height: 76px;
+    margin: 0 0 0 0;
+}
+.btn_checkout.col-6 ul>li>a>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(../img/checkout-bg.jpg) repeat;
+    display: inline-block;
+    height: 76px;
+    padding: 11px 10px 16px 10px;
+    text-align: center;
+}
+.chekout_pakate.col-6 img {
+    width: 100%;
+    height: auto;
+    margin: -82px 0 0 40px;
+}
+.btn_checkout_pro ul li{
+    list-style: none;
+}
+.btn_checkout_pro img {
+    width: 164px !important;
+    height: 43px !important;
+    margin: 8px 0 0 98px !important;
+}
+/* ----------------------------- Pop Up btn css ----------------------------- */
+.popUpbtn{
+    color: #5A266E !important;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    background: transparent !important;
+    margin: 19px auto 50px auto;
+    padding-top: 40px;
+}
+.popUpbtn:hover{
+    color: #5A266E !important;
+    background:transparent !important;
+
+}
+.popup_body{
+    padding: 30px 12px 20px 38px;
+}
+.popup_body ul li{
+    font-size: 16px;
+    line-height: 36px;
+    text-align: justify;
+}
+.modal-dialog {
+    max-width: 100%;
+    margin: 1.75rem auto;
+}
+/* -------------------------------- Fda Image ------------------------------- */
+.fda_image{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+.fda_image img {
+    width: 361px;
+    height: auto;
+    display: block;
+    margin: -45px auto -41px auto;
+}
+/* --------------------------- FB Coment Part Css --------------------------- */
+.comment {
+    background-color: #ebedf0;
+    border-radius: 18px;
+    display: inline-block;
+    line-height: 16px;
+    margin-top: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 6px 12px 7px 12px;
+}
+.top-fan {
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+.top-fan img {
+    width: 12px;
+    margin-right: 2px;
+}
+.like-replay span {
+    padding-left: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.btn-primary {
+    color: #8e8e8e;
+    background-color: #ffffff;
+    border-color: #909090;
+    border-radius: 1px;
+    font-size: 15px;
+}
+.row {
+   
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
+.fb_img img{
+    width: 45px;
+    height: 45px;
+}
+/* -------------------------------------------------------------------------- */
+/*                           Responsive Width 1023px                           */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:1200px){
+/* -------------------------------- Basic Css ------------------------------- */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.popup_body{
+    overflow-x: hidden;
+}
+/* ---------------------------- Bannar Part Start --------------------------- */
+#header{
+    width:100%;
+    background-image:linear-gradient(to right, rgba(0,0,0,0),rgba(255,255,255,1)), url("../img/591c71fe1442931b008b6298.jpg");
+    background-repeat: no-repeat;
+    height:auto;
+    background-size: cover;
+    padding: 29px 20px 36px 6px;
+}
+/* -------------------------- Bannar Left Part css -------------------------- */
+.bannar_left img {
+    width: 100%;
+    height: auto;
+    margin: 11px 0 0 4px;
+}
+/* -------------------------- Bannar Right Part css ------------------------- */
+.bannar_right img{
+    width: 80px;
+    height: 45px;
+    margin: 10px auto;
+    display: block;
+}
+.bannar_right h4 {
+    font-size: 32px;
+    color: #0b61c5;
+    text-shadow: 1px 1px 3px #667b90;
+    letter-spacing: 3px;
+    margin: 16px 0 4px 22px;
+    text-align: center;
+}
+.bannar_right h2 {
+    font-size: 45px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #667b90;
+}
+.secont_h2_bannar_right{
+    color:#562864 !important;
+    margin-top:-18px;
+}
+.bannar_right ul {
+    background: #F27A30;
+    padding: 17px 0 17px 205px;
+}
+.bannar_right ul li {
+    margin-right: 0px; 
+    color: #ffffff;
+    font-size: 20px;
+}
+/* ----------------------- Bullet Number List Two css ----------------------- */
+.bulleting ul {
+    background: transparent;
+    padding: 0 0 0 0 !important;
+}
+.bulleting ul li {
+    color: #462C4C;
+    list-style: none;
+    font-size: 25px;
+    position: relative;
+    font-weight: 700;
+    line-height: 47px;
+}
+.bulleting ul li span img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    border-radius: 35px;
+    transform: rotate(269deg);
+    position: absolute;
+    margin-left: -59px;
+    margin-top: 6px;
+}
+/* ------------------------ Bannar Bottom Red Div Css ----------------------- */
+.bannar_bottom_red_div{
+    width:100%;
+    height:20px;
+    background:#D47305;
+}
+/* -------------------------- CELEBRITIES  Part css ------------------------- */
+.celebrities_part{
+    width:100%;
+    height:auto;
+}
+.celebrities_part h2{
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px 0 38px 0;
+    background: #EF7A33;
+    padding: 17px 2px 17px 2px;
+    letter-spacing: 11px;
+}
+.celebrities_part img{
+    width: 100%;
+    height: auto;
+    margin-top: -38px;
+}
+.celebrities_part p{
+    font-size: 16px;
+    margin: 30px 0 21px 23px;
+    text-align: justify;
+    padding: 18px 49px 21px 57px;
+    border-left: 15px solid #EF7A33;
+    background-size: 100% 100%;
+    color: #000000;
+}
+.celebrities_p_1{
+    background: linear-gradient(to right, rgba(255,255,255,0.6),rgba(255,255,255,1)),url(../img/1-Harvard-University-1.jpg) no-repeat;
+}
+.celebrities_p_2{
+    background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,1)),url(../img/hard_fresh_man.png) no-repeat;
+}
+.celebrities_p_3{
+    background: linear-gradient(to right, rgba(255,255,255,0.8),rgba(255,255,255,1)),url(../img/800.jpeg) no-repeat;
+}
+/* --------------------- Bannar Bottom content start css -------------------- */
+.bannar_b_content{
+    width:100%;
+    height:auto;
+}
+.bannar_b_content h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.bannar_b_content img{
+    width: 100%;
+    height: auto;
+    margin-top: -33px;
+    padding: 2px;
+    background: #D47305;
+    margin-left: 15px;
+}
+.bannar_b_content h4{
+    font-size: 22px;
+    margin: 16px 0 15px 22px;
+}
+.bannar_b_content p{
+    font-size: 16px;
+    margin: 2px 0 21px 23px;
+    text-align: justify;
+}
+/* ------------------------- Second Content Part css ------------------------ */
+.second_cotent{
+    width:100%;
+    height:auto;
+    background:linear-gradient(90deg, rgba(255,255,255,0.9) 52%, rgba(3,74,60,0.5) 90%), url("../img/harvard-university.jpg");
+    background-size: 100% 100%;
+    padding: 10px 133px 50px 0px;
+}
+.second_cotent h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+.second_cotent p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 2px 0 2px 23px;
+}
+/* -------------------------- Content 3rd Part css -------------------------- */
+.content_3rd_part{
+    width: 100%;
+    height: auto;
+    padding: 10px 25px 60px 2px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/Harvard-University_result.jpg);
+    background-size: 100% 100%;
+}
+.content_3rd_part h2{
+    font-size: 37px;
+    color: #EF7A33;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 49px 0 22px 138px;
+}
+.content_3rd_part img{
+    width:100%;
+    height:auto;
+}
+.content_3rd_part p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0 10px 23px;
+}
+/* -------------------------- Shipping Process css -------------------------- */
+.shipping_process {
+    width: 100%;
+    height: auto;
+    margin-bottom: -20px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/Harvard-University_result.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 61px;
+}
+.shipping_process img{
+    width: 100%;
+    height: auto;
+    margin: 52px 0 0 0;
+}
+.shipping_process p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 30px 31px 30px 26px;
+}
+.bottom_section_bg{
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 100%, rgba(3,74,60,0.5) 48%), url(../img/harvard-university\ \(1\).jpg);
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+}
+/* ----------------------------- Rlz Button css ----------------------------- */
+.rlz_button{
+    width:100%;
+    height:auto;
+}
+.button_wrap{
+    width: 100%;
+    height: 150px;
+    background: #5A266E;
+    margin: 20px auto;
+    position: relative;
+}
+.btn_checkout.col-6 >ul{
+    display:flex;
+    margin: 15px 0 0 -60px;
+}
+.btn_checkout.col-6> ul> li{
+    list-style-type: none;
+}
+.btn_checkout.col-6>ul>li>img {
+    width: 100%;
+    height: 76px;
+    margin: 0 0 0 0;
+}
+.btn_checkout.col-6 ul>li>a>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(../img/checkout-bg.jpg) repeat;
+    display: inline-block;
+    height: 76px;
+    padding: 11px 10px 16px 10px;
+    text-align: center;
+}
+.chekout_pakate.col-6 img {
+    width: 100%;
+    height: auto;
+    margin: -82px 0 0 40px;
+}
+.btn_checkout_pro ul li{
+    list-style: none;
+}
+.btn_checkout_pro img {
+    width: 164px !important;
+    height: 43px !important;
+    margin: 8px 0 0 98px !important;
+}
+/* ----------------------------- Pop Up btn css ----------------------------- */
+.popUpbtn{
+    color: #5A266E !important;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    background: transparent !important;
+    margin: 19px auto 50px auto;
+    padding-top: 40px;
+}
+.popUpbtn:hover{
+    color: #5A266E !important;
+    background:transparent !important;
+
+}
+.popup_body{
+    padding: 30px 12px 20px 38px;
+}
+.popup_body ul li{
+    font-size: 16px;
+    line-height: 36px;
+    text-align: justify;
+}
+.modal-dialog {
+    max-width: 100%;
+    margin: 1.75rem auto;
+}
+/* -------------------------------- Fda Image ------------------------------- */
+.fda_image{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+.fda_image img {
+    width: 361px;
+    height: auto;
+    display: block;
+    margin: -45px auto -41px auto;
+}
+/* --------------------------- FB Coment Part Css --------------------------- */
+.comment {
+    background-color: #ebedf0;
+    border-radius: 18px;
+    display: inline-block;
+    line-height: 16px;
+    margin-top: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 6px 12px 7px 12px;
+}
+.top-fan {
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+.top-fan img {
+    width: 12px;
+    margin-right: 2px;
+}
+.like-replay span {
+    padding-left: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.btn-primary {
+    color: #8e8e8e;
+    background-color: #ffffff;
+    border-color: #909090;
+    border-radius: 1px;
+    font-size: 15px;
+}
+.row {
+   
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
+.fb_img img{
+    width: 45px;
+    height: 45px;
+}
+}
